@@ -1,0 +1,31 @@
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+TITLE: Build blazing fast website with Google AMP project
+#+Email: ydli@thoughtworks.com
+#+Date:
+#+Author:
+#+OPTIONS: timestamp:nil, toc:nil, reveal_title_slide:nil, num:nil
+#+REVEAL_TRANS: concave
+#+REVEAL_EXTRA_CSS: ./amp.css
+#+REVEAL_HTML: <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+* Build blazing fast website
+  :PROPERTIES:
+  :END:
+  #+REVEAL_HTML: <img class="amp-logo" src="./logo-og-image.jpg">
+  #+REVEAL_HTML: <br />
+  #+REVEAL_HTML: <img class="company-logo" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/logo-lockup-gdg-horizontal.png">
+  #+REVEAL_HTML: <img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/006tKfTcgy1fshmu1rdb5j307802faa7.jpg">
+* The Problem of the web
+* What is AMP
+* AMP Demo
+* AMP Design Principles
+* How AMP solve the problem
+* What's in AMP
+** amp-stories
+** amp-bind
+** amp-email
+** amp-animation
+* What AMP can do what can't
+* AMP cons & props
+* Q&A
+* Thanks

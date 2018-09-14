@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Build blazing fast website with Google AMP project</title>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+<link rel="stylesheet" href="./amp.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+<section>
+<section id="slide-org81dc427">
+<h2 id="org81dc427">Build blazing fast website</h2>
+<img class="amp-logo" src="./logo-og-image.jpg">
+<br />
+<img class="company-logo" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/logo-lockup-gdg-horizontal.png">
+<img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/006tKfTcgy1fshmu1rdb5j307802faa7.jpg">
+</section>
+</section>
+<section>
+<section id="slide-orgbffa343">
+<h2 id="orgbffa343">The Problem of the web</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgf154a68">
+<h2 id="orgf154a68">What is AMP</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgceb9b69">
+<h2 id="orgceb9b69">AMP Demo</h2>
+</section>
+</section>
+<section>
+<section id="slide-org398229e">
+<h2 id="org398229e">AMP Design Principles</h2>
+</section>
+</section>
+<section>
+<section id="slide-org59450d6">
+<h2 id="org59450d6">How AMP solve the problem</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgc92c54d">
+<h2 id="orgc92c54d">What's in AMP</h2>
+<div class="outline-text-2" id="text-orgc92c54d">
+</div>
+</section>
+<section id="slide-org161786f">
+<h3 id="org161786f">amp-stories</h3>
+</section>
+<section id="slide-org1f8549f">
+<h3 id="org1f8549f">amp-bind</h3>
+</section>
+<section id="slide-org97c0e88">
+<h3 id="org97c0e88">amp-email</h3>
+</section>
+<section id="slide-orgf4d422f">
+<h3 id="orgf4d422f">amp-animation</h3>
+</section>
+</section>
+<section>
+<section id="slide-orgff47da9">
+<h2 id="orgff47da9">What AMP can do what can't</h2>
+</section>
+</section>
+<section>
+<section id="slide-org32cc29c">
+<h2 id="org32cc29c">AMP cons &amp; props</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgb9d9f15">
+<h2 id="orgb9d9f15">Q&amp;A</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgf1a9a19">
+<h2 id="orgf1a9a19">Thanks</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
