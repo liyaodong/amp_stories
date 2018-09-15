@@ -3,14 +3,12 @@
 #+Email: ydli@thoughtworks.com
 #+Date:
 #+Author:
-#+OPTIONS: timestamp:nil, toc:nil, reveal_title_slide:nil, num:nil
+#+OPTIONS: timestamp:nil, toc:nil, reveal_title_slide:nil, num:nil, reveal_history:true,
 #+REVEAL_TRANS: concave
 #+REVEAL_EXTRA_CSS: ./amp.css
 #+REVEAL_HTML: <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 
 * Build blazing fast website
-  :PROPERTIES:
-  :END:
   #+REVEAL_HTML: <img class="amp-logo" src="./logo-og-image.jpg">
   #+REVEAL_HTML: <br />
   #+REVEAL_HTML: <img class="company-logo" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/logo-lockup-gdg-horizontal.png">
@@ -37,15 +35,53 @@
 ** Why Fast
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.50.53 AM.png" />
 * What is AMP
-* AMP Demo
-* AMP Design Principles
-* How AMP solve the problem
-* What's in AMP
-** amp-stories
-** amp-bind
-** amp-email
-** amp-animation
-* What AMP can do what can't
+  The Accelerated Mobile Pages Project
+** Accelerated Mobile Pages?
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/PicGIF_mac_GIF_轉檔_6.gif" />
+** AMP Demo
+   #+REVEAL_HTML:  <video src="https://www.ampproject.org/static/video/amp-phone.mp4" style="max-height: 400px;" muted="" loop="" controls=""></video>
+** Aliexpress
+   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_1320539520.png" />
+** How AMP solve the problem
+- Execute all AMP JavaScript asynchronously
+- Minimize style recalculations
+- All CSS must be inline and size-bound
+- Only run GPU-accelerated animations
+- Keep all third-party JavaScript out of the critical path
+- ...
+** Three pillar
+- AMP HTML
+- AMP JS
+- AMP Cache
+* AMP HTML
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 1.51.33 PM.png" />
+** Disallowed HTML
+- <img>
+- <video>
+- <audio>
+- <iframe>
+- <embed>
+- ...
+** replacement
+- <amp-img>
+- <amp-video>
+- <amp-audio>
+- <amp-iframe>
+** How to use?
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 3.05.19 PM.png" />
+* AMP JS
+  https://cdn.ampproject.org/v0.js
+** No custom JS at all
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/giphy.gif" />
+** AMP components
+*** amp-list
+*** amp-bind
+*** amp-mustache
+*** amp-carousel
+*** amp-lightbox
+* AMP Cache
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/CORS_with_Cache.png" />
 * AMP cons & props
+* AMP vs MIP
 * Q&A
 * Thanks
