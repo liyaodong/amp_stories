@@ -4,7 +4,7 @@ body {
     -webkit-font-smoothing: antialiased;
     color: #202124;
     background-color: #fff;
-    font-family: "Google Sans",arial,sans-serif !important;
+    font-family: Roboto, arial,sans-serif !important;
 }
 
 body::before {
@@ -16,8 +16,10 @@ body::before {
     height: 50vh;
     background: url(./amp-lines-motions.png) left bottom no-repeat;
     background-size: 42vw auto;
-    transform: rotate(150deg) translate(20%, -20%);
+    transform: rotate(150deg) translate(35%, -20%);
+    opacity: .5;
 }
+
 
 .reveal section img {
     border: none;
@@ -29,9 +31,9 @@ body::before {
 }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    font-family: "Roboto", "Google Sans",arial,sans-serif !important;
-    font-weight: 100;
     text-transform: none;
+    font-family: Roboto, arial, sans-serif !important;
+    font-weight: 800;
 }
 
 .reveal h2 {
@@ -39,10 +41,11 @@ body::before {
     transform: skewX(-10deg);
     background: linear-gradient(36deg, #0dd3ff, #0389ff, #1c79c0);
     padding: 10px;
+    font-weight: 100;
 }
 
 .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    color: #4C71F5;
+    color: rgba(42, 121, 197, 1.00);
 }
 
 img.company-logo {

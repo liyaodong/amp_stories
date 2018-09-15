@@ -6,7 +6,7 @@
 #+OPTIONS: timestamp:nil, toc:nil, reveal_title_slide:nil, num:nil, reveal_history:true,
 #+REVEAL_TRANS: concave
 #+REVEAL_EXTRA_CSS: ./amp.css
-#+REVEAL_HTML: <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+#+REVEAL_HTML: <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900" rel="stylesheet">
 
 * Build blazing fast website
   #+REVEAL_HTML: <img class="amp-logo" src="./logo-og-image.jpg">
@@ -40,6 +40,8 @@
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/PicGIF_mac_GIF_轉檔_6.gif" />
 ** AMP Demo
    #+REVEAL_HTML:  <video src="https://www.ampproject.org/static/video/amp-phone.mp4" style="max-height: 400px;" muted="" loop="" controls=""></video>
+** AMP search result
+   #+REVEAL_HTML:  <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.32.05 PM.png" />
 ** Aliexpress
    #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_1320539520.png" />
 ** How AMP solve the problem
@@ -71,17 +73,35 @@
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 3.05.19 PM.png" />
 * AMP JS
   https://cdn.ampproject.org/v0.js
-** No custom JS at all
+** No custom JS at all(at moment)
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/giphy.gif" />
 ** AMP components
-*** amp-list
+#+BEGIN_SRC html
+- Ads & analytics:     amp-analytics
+- Dynamic content:     amp-form, amp-bind
+- Layout:              amp-layout, amp-lightbox
+- Media:               amp-audio, amp-youtube
+- Presentation:        amp-animation, amp-story
+- Social:              amp-twitter, amp-social-share
+#+END_SRC
+*** amp-list, amp-mustache
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
 *** amp-bind
-*** amp-mustache
-*** amp-carousel
-*** amp-lightbox
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.10.56 PM.png" />
+*** amp-stories
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_2321071416.png" />
+*** amp-email
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/GMAIL_AMP_Booking_V02.gif" />
 * AMP Cache
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/CORS_with_Cache.png" />
-* AMP cons & props
+* AMP Pros & Cons
+- + SEO Optimize
+- + Performance
+- + Reuseable component
+- - Google resource load speed in China
+- - Third part javascript library and customise complex javascript logic
+- - strict validation rules
 * AMP vs MIP
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.24.24 PM.png" />
 * Q&A
 * Thanks
