@@ -11,8 +11,8 @@
 * Build blazing fast website
   #+REVEAL_HTML: <img class="amp-logo" src="./logo-og-image.jpg">
   #+REVEAL_HTML: <br />
-  #+REVEAL_HTML: <img class="company-logo" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/logo-lockup-gdg-horizontal.png">
-  #+REVEAL_HTML: <img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/006tKfTcgy1fshmu1rdb5j307802faa7.jpg">
+  #+REVEAL_HTML: <img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/thoughtworks.png">
+  #+REVEAL_HTML: <img class="company-logo freecodecamp" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/freeCodeCamp-alternative.png">
 * The Problem of the web
 ** Web 1995
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/yahooearly1995-734813.jpg">

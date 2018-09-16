@@ -61,5 +61,10 @@ img.amp-logo {
 }
 
 .company-logo.tw {
-    height: 50px;
+    height: 70px;
+}
+
+.company-logo.freecodecamp {
+    height: 20px;
+}
 }
