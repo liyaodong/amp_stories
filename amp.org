@@ -84,6 +84,8 @@
 - Presentation:        amp-animation, amp-story
 - Social:              amp-twitter, amp-social-share
 #+END_SRC
+*** amp-layout
+   #+REVEAL_HTML:  <video src="http://oax4654gb.bkt.clouddn.com/2018/9/16/amp-layout.mov" style="max-height: 400px;" autoplay muted="" loop=""></video>
 *** amp-list, amp-mustache
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
 *** amp-bind
