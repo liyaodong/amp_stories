@@ -1,4 +1,4 @@
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+TITLE: Build blazing fast website with Google AMP project
 #+Email: ydli@thoughtworks.com
 #+Date:
@@ -11,39 +11,39 @@
 * Build blazing fast website
   #+REVEAL_HTML: <img class="amp-logo" src="./logo-og-image.jpg">
   #+REVEAL_HTML: <br />
-  #+REVEAL_HTML: <img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/thoughtworks.png">
-  #+REVEAL_HTML: <img class="company-logo freecodecamp" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/freeCodeCamp-alternative.png">
+  #+REVEAL_HTML: <img class="company-logo tw" src="https://image.liyaodong.com/2018/9/16/thoughtworks.png">
+  #+REVEAL_HTML: <img class="company-logo freecodecamp" src="https://image.liyaodong.com/2018/9/16/freeCodeCamp-alternative.png">
 * The Problem of the web
 ** Web 1995
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/yahooearly1995-734813.jpg">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/yahooearly1995-734813.jpg">
 ** Web 2000
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/118.jpg">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/118.jpg">
 ** Web 2005
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_rkhpmTt83pcleE-8WyVngg.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_rkhpmTt83pcleE-8WyVngg.png">
 ** Web 2018
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/6a00d83452464869e201bb09fdb9e8970d.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/6a00d83452464869e201bb09fdb9e8970d.png">
 ** Javascript Bundle Size
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_NPopFbfbpNG63w2Q9dyBXA.jpeg">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_NPopFbfbpNG63w2Q9dyBXA.jpeg">
 ** Network
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_BJLqjBqX0n7mNg0YRKIimA.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_BJLqjBqX0n7mNg0YRKIimA.png">
 ** User need to wait
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_0WzELcRwNUj0gS89mTxFHg.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_0WzELcRwNUj0gS89mTxFHg.png">
 ** The web is bloated by user “experience”
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_9s1xVNn5DdkszfTTcYpaAQ.gif">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_9s1xVNn5DdkszfTTcYpaAQ.gif">
 ** Fast
   #+REVEAL_HTML: <blockquote>No matter what kind of experience I'm building, I want it to be fast</blockquote>
 ** Why Fast
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.50.53 AM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.50.53 AM.png" />
 * What is AMP
   The Accelerated Mobile Pages Project
 ** Accelerated Mobile Pages?
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/PicGIF_mac_GIF_轉檔_6.gif" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/PicGIF_mac_GIF_轉檔_6.gif" />
 ** AMP Demo
    #+REVEAL_HTML:  <video src="https://www.ampproject.org/static/video/amp-phone.mp4" style="max-height: 400px;" muted="" loop="" controls=""></video>
 ** AMP search result
-   #+REVEAL_HTML:  <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.32.05 PM.png" />
+   #+REVEAL_HTML:  <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.32.05 PM.png" />
 ** Aliexpress
-   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_1320539520.png" />
+   #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/2018_09_15_1320539520.png" />
 ** How AMP solve the problem
 - Execute all AMP JavaScript asynchronously
 - Minimize style recalculations
@@ -56,7 +56,7 @@
 - AMP JS
 - AMP Cache
 * AMP HTML
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 1.51.33 PM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 1.51.33 PM.png" />
 ** Disallowed HTML
 - <img>
 - <video>
@@ -70,11 +70,11 @@
 - <amp-audio>
 - <amp-iframe>
 ** How to use?
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 3.05.19 PM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 3.05.19 PM.png" />
 * AMP JS
   https://cdn.ampproject.org/v0.js
 ** No custom JS at all(at moment)
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/giphy.gif" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/giphy.gif" />
 ** AMP components
 #+BEGIN_SRC html
 - Ads & analytics:     amp-analytics
@@ -85,17 +85,17 @@
 - Social:              amp-twitter, amp-social-share
 #+END_SRC
 *** amp-layout
-   #+REVEAL_HTML:  <video src="http://oax4654gb.bkt.clouddn.com/2018/9/16/amp-layout.mov" style="max-height: 400px;" autoplay muted="" loop=""></video>
+   #+REVEAL_HTML:  <video src="https://image.liyaodong.com/2018/9/16/amp-layout.mov" style="max-height: 400px;" autoplay muted="" loop=""></video>
 *** amp-list, amp-mustache
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
 *** amp-bind
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.10.56 PM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.10.56 PM.png" />
 *** amp-stories
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_2321071416.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/2018_09_15_2321071416.png" />
 *** amp-email
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/GMAIL_AMP_Booking_V02.gif" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/GMAIL_AMP_Booking_V02.gif" />
 * AMP Cache
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/CORS_with_Cache.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/CORS_with_Cache.png" />
 * AMP Pros & Cons
 - + SEO Optimize
 - + Performance
@@ -104,6 +104,6 @@
 - - Third part javascript library and customise complex javascript logic
 - - strict validation rules
 * AMP vs MIP
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.24.24 PM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.24.24 PM.png" />
 * Q&A
 * Thanks
